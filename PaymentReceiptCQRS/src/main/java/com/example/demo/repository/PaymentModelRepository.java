@@ -13,4 +13,7 @@ import com.example.demo.model.PaymentModel;
 public interface PaymentModelRepository extends CrudRepository<PaymentModel, UUID> {
 	@Query(value="SELECT * FROM payment_model",nativeQuery = true)
 	List<PaymentModel> getAll();
+	
+	@Query(value="select * from payment_model u where u.refID = :refID", nativeQuery = true)
+	PaymentModel getByRefID(String refID);
 }
