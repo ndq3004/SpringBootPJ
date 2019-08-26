@@ -1,0 +1,355 @@
+2019-08-26 10:46:22 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:46:22 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 11340 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:46:22 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:46:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-26 10:46:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-26 10:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:46:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 270ms. Found 4 repository interfaces.
+2019-08-26 10:46:26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$b8703852] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:46:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:46:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:46:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:46:27 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\wamp64\bin\php\php7.0.10\;C:\composer;C:\apache-maven-3.6.1\bin\;C:\apache-tomcat-8.5.40\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\;C:\Users\quan.nd166622\AppData\Local\Microsoft\WindowsApps;C:\Users\quan.nd166622\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2018.3.3\bin;C:\Users\quan.nd166622\AppData\Roaming\Composer\vendor\bin;C:\Users\quan.nd166622\AppData\Local\GitHubDesktop\bin;C:\Users\quan.nd166622\.dotnet\tools;C:\Users\quan.nd166622\AppData\Roaming\npm;D:\spring-tool-suite-4-4.3.2.RELEASE-e4.12.0-win32.win32.x86_64(1)\sts-4.3.2.RELEASE;;.]
+2019-08-26 10:46:27 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:46:27 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4656 ms
+2019-08-26 10:46:29 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:46:29 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:46:29 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:46:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:46:31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:46:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:46:32 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 11.182 seconds (JVM running for 12.566)
+2019-08-26 10:46:49 [cluster-ClusterId{value='5d6356154487fd2c4cc74539', description='null'}-10.102.159.118:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 10.102.159.118:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-08-26 10:47:26 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:48:23 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:48:23 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 5996 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:48:23 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:48:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-26 10:48:23 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-26 10:48:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:48:25 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:48:26 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 216ms. Found 4 repository interfaces.
+2019-08-26 10:48:26 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$515df958] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:48:27 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:48:27 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:48:27 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:48:27 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\wamp64\bin\php\php7.0.10\;C:\composer;C:\apache-maven-3.6.1\bin\;C:\apache-tomcat-8.5.40\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\;C:\Users\quan.nd166622\AppData\Local\Microsoft\WindowsApps;C:\Users\quan.nd166622\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2018.3.3\bin;C:\Users\quan.nd166622\AppData\Roaming\Composer\vendor\bin;C:\Users\quan.nd166622\AppData\Local\GitHubDesktop\bin;C:\Users\quan.nd166622\.dotnet\tools;C:\Users\quan.nd166622\AppData\Roaming\npm;D:\spring-tool-suite-4-4.3.2.RELEASE-e4.12.0-win32.win32.x86_64(1)\sts-4.3.2.RELEASE;;.]
+2019-08-26 10:48:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:48:28 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4156 ms
+2019-08-26 10:48:29 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:48:29 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:48:30 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:48:31 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:48:32 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:48:32 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 9.617 seconds (JVM running for 11.106)
+2019-08-26 10:48:50 [cluster-ClusterId{value='5d63568d4487fd176c803416', description='null'}-10.102.159.118:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 10.102.159.118:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-08-26 10:49:21 [Thread-6] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:49:22 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:49:22 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 5996 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:49:22 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:49:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:49:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:49:23 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 62ms. Found 4 repository interfaces.
+2019-08-26 10:49:23 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$515df958] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:49:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:49:23 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:49:23 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:49:24 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1414 ms
+2019-08-26 10:49:24 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:49:24 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:24 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:49:25 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:49:25 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 2.638 seconds (JVM running for 63.996)
+2019-08-26 10:49:25 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-08-26 10:49:26 [Thread-11] INFO  o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:49:27 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:49:27 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 5996 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:49:27 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:49:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:49:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:49:27 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 89ms. Found 4 repository interfaces.
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$515df958] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:49:28 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:49:28 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:49:28 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1124 ms
+2019-08-26 10:49:28 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:49:28 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:28 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:49:29 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:49:29 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 1.782 seconds (JVM running for 67.892)
+2019-08-26 10:49:29 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2019-08-26 10:49:41 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:49:41 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 3304 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:49:41 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:49:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-26 10:49:41 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-26 10:49:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:49:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:49:43 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 190ms. Found 4 repository interfaces.
+2019-08-26 10:49:43 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$5c40ce59] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:49:44 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:49:44 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:49:44 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:49:44 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\wamp64\bin\php\php7.0.10\;C:\composer;C:\apache-maven-3.6.1\bin\;C:\apache-tomcat-8.5.40\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\;C:\Users\quan.nd166622\AppData\Local\Microsoft\WindowsApps;C:\Users\quan.nd166622\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2018.3.3\bin;C:\Users\quan.nd166622\AppData\Roaming\Composer\vendor\bin;C:\Users\quan.nd166622\AppData\Local\GitHubDesktop\bin;C:\Users\quan.nd166622\.dotnet\tools;C:\Users\quan.nd166622\AppData\Roaming\npm;D:\spring-tool-suite-4-4.3.2.RELEASE-e4.12.0-win32.win32.x86_64(1)\sts-4.3.2.RELEASE;;.]
+2019-08-26 10:49:45 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:49:45 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3720 ms
+2019-08-26 10:49:46 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:49:46 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:49:47 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:49:48 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:49:49 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:49:49 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 8.631 seconds (JVM running for 9.882)
+2019-08-26 10:50:06 [cluster-ClusterId{value='5d6356da4487fd0ce8aa4082', description='null'}-10.102.159.118:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 10.102.159.118:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-08-26 10:50:15 [restartedMain] ERROR o.s.b.c.l.LoggingApplicationListener - Cannot set level '=info' for 'com.root'
+2019-08-26 10:50:15 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Starting PaymentReceiptCqrsApplication on DESKTOP-HUCBKKI with PID 14288 (D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS\target\classes started by quan.nd166622 in D:\springWSMISA\MISA.SME.Tested\Java.PaymentReceiptCQRS\PaymentReceiptCQRS)
+2019-08-26 10:50:15 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - No active profile set, falling back to default profiles: default
+2019-08-26 10:50:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-08-26 10:50:15 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-08-26 10:50:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-08-26 10:50:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-08-26 10:50:17 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 189ms. Found 4 repository interfaces.
+2019-08-26 10:50:18 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$ee32f18f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-08-26 10:50:19 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2019-08-26 10:50:19 [restartedMain] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2019-08-26 10:50:19 [restartedMain] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-08-26 10:50:19 [restartedMain] INFO  o.a.c.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_191\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_191/bin/server;C:/Program Files/Java/jre1.8.0_191/bin;C:/Program Files/Java/jre1.8.0_191/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Java\jdk1.8.0_191\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\wamp64\bin\php\php7.0.10\;C:\composer;C:\apache-maven-3.6.1\bin\;C:\apache-tomcat-8.5.40\bin;C:\Program Files\nodejs\;C:\Program Files\Amazon\AWSCLI\bin\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\quan.nd166622\AppData\Local\Programs\Python\Python37\;C:\Users\quan.nd166622\AppData\Local\Microsoft\WindowsApps;C:\Users\quan.nd166622\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PhpStorm 2018.3.3\bin;C:\Users\quan.nd166622\AppData\Roaming\Composer\vendor\bin;C:\Users\quan.nd166622\AppData\Local\GitHubDesktop\bin;C:\Users\quan.nd166622\.dotnet\tools;C:\Users\quan.nd166622\AppData\Roaming\npm;D:\spring-tool-suite-4-4.3.2.RELEASE-e4.12.0-win32.win32.x86_64(1)\sts-4.3.2.RELEASE;;.]
+2019-08-26 10:50:19 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-08-26 10:50:19 [restartedMain] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4398 ms
+2019-08-26 10:50:21 [restartedMain] INFO  org.mongodb.driver.cluster - Cluster created with settings {hosts=[10.102.159.118:27017], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2019-08-26 10:50:21 [restartedMain] INFO  org.mongodb.driver.cluster - Adding discovered server 10.102.159.118:27017 to client view of cluster
+2019-08-26 10:50:21 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refDetailID' in type 'InvoiceDetailCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refTypeID' in type 'RefTypeCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> ref -> payments -> invoices -> payment'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'refID' in type 'PaymentReceiptCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> ref -> payments'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payments' in type 'RefTypeCommand' for path 'payments -> invoices -> payment -> ref -> payments'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'invoices' in type 'PaymentReceiptCommand' for path 'invoices -> payment -> invoices'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'ref' in type 'PaymentReceiptCommand' for path 'ref -> payments -> ref'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.d.m.c.i.MongoPersistentEntityIndexResolver - Found cycle for field 'payment' in type 'InvoiceDetailCommand' for path 'payment -> invoices -> payment'
+2019-08-26 10:50:22 [restartedMain] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-08-26 10:50:23 [restartedMain] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2019-08-26 10:50:23 [restartedMain] INFO  c.e.d.PaymentReceiptCqrsApplication - Started PaymentReceiptCqrsApplication in 9.174 seconds (JVM running for 10.29)
+2019-08-26 10:50:41 [cluster-ClusterId{value='5d6356fd4487fd37d0d143cd', description='null'}-10.102.159.118:27017] INFO  org.mongodb.driver.cluster - Exception in monitor thread while connecting to server 10.102.159.118:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-08-26 10:54:08 [AMQP Connection 127.0.0.1:5672] WARN  c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-08-26 10:54:08 [AMQP Connection 0:0:0:0:0:0:0:1:5672] WARN  c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-08-26 10:54:08 [AMQP Connection 0:0:0:0:0:0:0:1:5672] WARN  c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-08-26 10:54:08 [AMQP Connection 127.0.0.1:5672] WARN  c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured (Exception message: Connection reset)
+2019-08-26 10:54:08 [RabbitMQ Error On Write Thread] ERROR c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandler.flush(SocketFrameHandler.java:177)
+	at com.rabbitmq.client.impl.AMQConnection.flush(AMQConnection.java:571)
+	at com.rabbitmq.client.impl.AMQCommand.transmit(AMQCommand.java:134)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:447)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:429)
+	at com.rabbitmq.client.impl.AMQConnection.handleConnectionClose(AMQConnection.java:846)
+	at com.rabbitmq.client.impl.AMQConnection.processControlCommand(AMQConnection.java:799)
+	at com.rabbitmq.client.impl.AMQConnection$1.processAsync(AMQConnection.java:242)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:650)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-26 10:54:08 [RabbitMQ Error On Write Thread] ERROR c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandler.flush(SocketFrameHandler.java:177)
+	at com.rabbitmq.client.impl.AMQConnection.flush(AMQConnection.java:571)
+	at com.rabbitmq.client.impl.AMQCommand.transmit(AMQCommand.java:134)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:447)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:429)
+	at com.rabbitmq.client.impl.AMQConnection.handleConnectionClose(AMQConnection.java:846)
+	at com.rabbitmq.client.impl.AMQConnection.processControlCommand(AMQConnection.java:799)
+	at com.rabbitmq.client.impl.AMQConnection$1.processAsync(AMQConnection.java:242)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:650)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-26 10:54:08 [RabbitMQ Error On Write Thread] ERROR c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandler.flush(SocketFrameHandler.java:177)
+	at com.rabbitmq.client.impl.AMQConnection.flush(AMQConnection.java:571)
+	at com.rabbitmq.client.impl.AMQCommand.transmit(AMQCommand.java:134)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:447)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:429)
+	at com.rabbitmq.client.impl.AMQConnection.handleConnectionClose(AMQConnection.java:846)
+	at com.rabbitmq.client.impl.AMQConnection.processControlCommand(AMQConnection.java:799)
+	at com.rabbitmq.client.impl.AMQConnection$1.processAsync(AMQConnection.java:242)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:650)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	at java.lang.Thread.run(Unknown Source)
+2019-08-26 10:54:08 [RabbitMQ Error On Write Thread] ERROR c.r.c.impl.ForgivingExceptionHandler - An unexpected connection driver error occured
+java.net.SocketException: Connection reset by peer: socket write error
+	at java.net.SocketOutputStream.socketWrite0(Native Method)
+	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+	at java.net.SocketOutputStream.write(Unknown Source)
+	at java.io.BufferedOutputStream.flushBuffer(Unknown Source)
+	at java.io.BufferedOutputStream.flush(Unknown Source)
+	at java.io.DataOutputStream.flush(Unknown Source)
+	at com.rabbitmq.client.impl.SocketFrameHandler.flush(SocketFrameHandler.java:177)
+	at com.rabbitmq.client.impl.AMQConnection.flush(AMQConnection.java:571)
+	at com.rabbitmq.client.impl.AMQCommand.transmit(AMQCommand.java:134)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:447)
+	at com.rabbitmq.client.impl.AMQChannel.quiescingTransmit(AMQChannel.java:429)
+	at com.rabbitmq.client.impl.AMQConnection.handleConnectionClose(AMQConnection.java:846)
+	at com.rabbitmq.client.impl.AMQConnection.processControlCommand(AMQConnection.java:799)
+	at com.rabbitmq.client.impl.AMQConnection$1.processAsync(AMQConnection.java:242)
+	at com.rabbitmq.client.impl.AMQChannel.handleCompleteInboundCommand(AMQChannel.java:178)
+	at com.rabbitmq.client.impl.AMQChannel.handleFrame(AMQChannel.java:111)
+	at com.rabbitmq.client.impl.AMQConnection.readFrame(AMQConnection.java:650)
+	at com.rabbitmq.client.impl.AMQConnection.access$300(AMQConnection.java:48)
+	at com.rabbitmq.client.impl.AMQConnection$MainLoop.run(AMQConnection.java:597)
+	at java.lang.Thread.run(Unknown Source)
